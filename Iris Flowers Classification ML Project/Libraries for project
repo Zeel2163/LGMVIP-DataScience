@@ -1,0 +1,15 @@
+REQUIRED LIBRARIES FOR THIS PROJECT :-
+   1. Numpy
+   2. Pandas
+   3. Matplotlib
+   4. sklearn
+   5. Seaborn
+   
+Machine learning models which are implemented in this project :-
+   1. Logistic Regression
+   2. Decision Tree
+   3. Rnadom Forest
+   4. Support Vector Machine
+   5. Naive bayes
+   6. Gradient Boosting
+   
