@@ -1,1 +1,48 @@
+Here is my first project in LetsGrowMore internship,
 
+About project:-
+
+        In this project i created a machine learning model for predict a species of flower based on their SepalLength, SepalWidth, PetalLength and PetalWidth.
+First i understand how final machine learning project is creating by data scientist and which steps are perform for it.
+
+1.  Collecting data and read that data by using pandas dataframe.
+
+2.  Understanding what our data is containing like shape of dataset, dtypes, describe.
+
+3.  Delete unnecessary column or data which are not required for our machine learning model here i deleted column ID because it is not needed to predict flower speceis.
+
+4.  Understand relation between all columns by using Correlation.
+
+5.  We have to clarify that our target column is categorical data or continues data by getting this information we can perform different task on dataset.
+
+6.  Here we have categorical data as target data so we have to do categorical encoding of species column because we have species in string data type so we have to 
+    convert string to interger.
+    
+7.  So we can apply dummies method for categorical encoding.
+
+8.  Then we can clean our dataset.
+
+9.  So now we can visualize our data in charts and bars form by python libraries like Matplotlib, seaborn and plotly otherwise we can use power bi tool for visualize 
+    our data.
+    
+10. Here i used power bi tool for visualize my dataset and get insights from it.
+
+11. Now we perform data split task on dataset for seperate our dependent variables and independent variable(Target variable) here our target variable is species column.
+
+12. Then we can perfrom diffent machine learning algorithms on data like:-
+    i)   Logistic regression
+    ii)  Decision tree
+    iii) Random forest
+    iv)  Support Vector Machine(SVM)
+    v)   Naive bayes 
+    vi)  Gradient Boosting
+    
+13. After appling above machine learning algorithms we get accuracy which are given below:-
+    i)   Logistic regression         :- 97.37 %
+    ii)  Decision tree               :- 94.74 %
+    iii) Random forest               :- 94.74 %
+    iv)  Support Vector Machine(SVM) :- 94.73 %
+    v)   Naive bayes                 :- 92.10 %
+    vi)  Gradient Boosting           :- 94.73 %
+    
+14. Now we test our model by giving values of SepalLength, SepalWidth, PetalLength and PetalWidth.
