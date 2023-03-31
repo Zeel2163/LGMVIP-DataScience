@@ -1,1 +1,37 @@
+this is my second data science project at Lets Grow More.
 
+task 3
+
+project :- IMAGE TO PENCIL SKETCH USING PYTHON
+
+in this project i completed some basic task on image to convert in pencil sketch:-
+
+step 1:
+       first i load requaried libraries for this project and also load my image by using Opencv library.
+       
+step 2:
+       resize image accroding to your requirments
+       
+step 3:
+       use matplotlib library for convert iamge in RGB image.
+       
+step 4:
+       convert RGB image to Gray image.
+       
+step 5:
+       convert gray image to inverted image.
+       
+step 6:
+       convert inverted image to blur.
+       
+step 7:
+       convert blur image to inverted blur image.
+       
+step 8:
+       combine grey image and inverted blur image for sketch image.
+       
+step 9:
+       compare original image and sketch image.
+      
+step 10:
+        end
